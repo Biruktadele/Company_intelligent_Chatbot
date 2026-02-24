@@ -4,4 +4,23 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.129.2",
+    "langdetect>=1.0.9",
+    "lxml>=6.0.2",
+    "pydantic-settings>=2.13.1",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "uvicorn>=0.41.0",
+]
+[tool.poetry.dependencies]
+PyPDF2 = "^3.0.1"
+python-docx = "^0.8.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+textract = "^1.6.5"
+lxml = "^4.9.3"
+langdetect = "^1.0.9"
